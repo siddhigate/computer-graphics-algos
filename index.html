@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bresenham circle</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="main">
+        <div class="container">
+    
+            <h1>Bresenham's Circle Drawing Algorithm</h1>
+            <div class="container-input">
+            X1 <input type="text" placeholder="Enter x1" id="x1">
+            Y1 <input type="text" placeholder="Enter y1" id="y1">
+            Radius<input type="text" placeholder="Enter radius" id="radius">
+            <!-- Y2 <input type="text" placeholder="Enter y2" id="y2"> -->
+            <button type="submit" id="sub-btn">Draw </button>
+
+            </div>
+            <div class="container-input">
+                <button type="submit" id="flower-btn" class="secondary-btn">Draw Flower</button>
+                <button type="submit" id="concentric-btn" class="secondary-btn">Concentric circles </button>
+                <button type="submit" id="petal-btn" class="secondary-btn">Petal Shape </button>
+
+            </div>
+            
+        </div>
+    </div>    
+    <canvas id="canvas2"> </canvas>
+
+
+    <script src="./app.js"></script>
+    <script src="./bres.js"></script>
+</body>
+</html>
